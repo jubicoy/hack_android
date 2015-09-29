@@ -15,8 +15,8 @@ if [ "$#" -qt 3 ]; then
     usage
 fi
 
-NAME_SLUG=${1}
-TARGET_APK=${2}
+TARGET_APK=${1}
+NAME_SLUG=${2}
 HASH=${3:0:7}
 TIMESTAMP=$(date +"%Y%m%d")
 
