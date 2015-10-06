@@ -10,7 +10,7 @@ if [ "$#" -lt 2 ]; then
     usage
 fi
 
-if [ "$#" -qt 3 ]; then
+if [ "$#" -gt 3 ]; then
     echo "Too many arguments. Exiting ..."
     usage
 fi
